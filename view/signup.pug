@@ -1,0 +1,26 @@
+extend base
+append head
+ link(rel='stylesheet', href='style1.css')
+ 
+block header
+ include hamburger1
+block content
+ .main
+    p.sign(align='center') Sign Up
+    form.form1
+        .entry
+         input.un.name1(type='text', align='center', placeholder='Name')
+        .entry
+         input.un.email1(type='email', align='center', placeholder='Email-Id')
+        .entry
+         input.pass.password1(type='password', align='center', placeholder='Password')
+        .entry
+         input.pass.confirmPassword1(type='password', align='center', placeholder='Confirm Password')
+        .entry
+         select.u.role1(align='center')
+             option(value='user') User
+             option(value='delivery_boy') Delivery Boy
+             option(value='restraunt_owner') Resteraunt Owner
+             option(value='admin') Admin
+        .entry
+         button.submit2(type="submit",align='center') Sign Up

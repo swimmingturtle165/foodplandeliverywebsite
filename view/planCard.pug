@@ -1,0 +1,27 @@
+.container-parent2
+        .container2
+            h2.plan-name #{plan.name}
+            h1.PRICE Price #{plan.price}$
+
+            h3.PRICE Discount #{plan.discount}$
+
+            h3.container-heading Duration #{plan.duration}
+            p.container-text2 Rating #{plan.ratingsAverage}/5
+            
+            ul.membership-perks
+                li.perks
+                    i.fas.fa-check
+                    |  3 meals everyday
+                li.perks
+                    i.fas.fa-check
+                    |  Order 24X7
+                li.perks
+                    i.fas.fa-check
+                    |  Access to newest creations
+                
+
+                li.perks
+                    i.fas.fa-check
+                    | Free home delivery
+            a.btn.book-now(href='') SUBSCRIBE
+        

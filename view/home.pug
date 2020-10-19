@@ -1,0 +1,166 @@
+extends base.pug
+block header
+ .showcase
+   include nav
+block content
+ section.features
+    h2 AWESOME FEATURES
+    .container-parent
+        .container
+            i.far.fa-calendar-plus.icons
+            h3.container-heading 365 DAYS/YEAR
+            p.container-text
+                | WE HAVE PACKAGES FOR 365 DAYS A YEAR. NO NEED TO COOK AGAIN EVER.WE HAVE PACKAGES FOR 365 DAYS A YEAR. NO NEED TO COOK AGAIN EVERWE HAVE PACKAGES FOR 365 DAYS A YEAR. NO NEED TO COOK AGAIN EVER.
+        .container
+            i.fas.fa-clock.icons
+            h3.container-heading 30 MINUTES OR FREE
+            p.container-text
+                | WE MEAN IT !! LIGHTNING FAST FOOD  AT YOUR DOOR-STEP OR IT IS FOR FREE..WE MEAN IT !! LIGHTNING FAST FOOD  AT YOUR DOOR-STEP OR IT IS FOR FREE.WE MEAN IT !! LIGHTNING FAST FOOD  AT YOUR DOOR-STEP OR IT IS FOR FREE.
+        .container
+            i.fas.fa-carrot.icons
+            h3.container-heading 100% ORGANIC
+            p.container-text
+                | EALTHIER AND TASTIER FOOD FOR OUR CUSTOMERS.EALTHIER AND TASTIER FOOD FOR OUR CUSTOMERS.EALTHIER AND TASTIER FOOD FOR OUR CUSTOMERS.EALTHIER AND TASTIER FOOD FOR OUR CUSTOMERS.
+ section.membership
+    h2 MEMBERSHIP PLANS
+    .container-parent2
+        .container2
+            h3 PREMIUM
+            h1.PRICE 399$
+            h3.container-heading 365 DAYS/YEAR
+            p.container-text2 That's only 13.30$ a meal
+            ul.membership-perks
+                li.perks
+                    i.fas.fa-check
+                    | 3 meals everyday
+                li.perks
+                    i.fas.fa-check
+                    | Order 24X7
+                li.perks
+                    i.fas.fa-check
+                    | Access to newest creations
+                li.perks
+                    i.fas.fa-check
+                    | Free home delivery
+            a.btn.book-now(href='') I am hungry
+        .container2
+            h3 PREMIUM
+            h1.PRICE 399$
+            h3.container-heading 365 DAYS/YEAR
+            p.container-text2 That's only 13.30$ a meal
+            ul.membership-perks
+                li.perks
+                    i.fas.fa-check
+                    |  3 meals everyday
+                li.perks
+                    i.fas.fa-check
+                    |  Order 24X7
+                li.perks
+                    i.fas.fa-check
+                    |  Access to newest creations
+                li.perks
+                    i.fas.fa-check
+                    |  Free home delivery
+            a.btn.book-now(href='') I am hungry
+        .container2
+            h3 PREMIUM
+            h1.PRICE 399$
+            h3.container-heading 365 DAYS/YEAR
+            p.container-text2 That's only 13.30$ a meal
+            ul.membership-perks
+                li.perks
+                    i.fas.fa-check
+                    |   3 meals everyday
+                li.perks
+                    i.fas.fa-check
+                    |   Order 24X7
+                li.perks
+                    i.fas.fa-check
+                    |   Access to newest creations
+                li.perks
+                    i.fas.fa-check
+                    |   Free home delivery
+            a.btn.book-now(href='') I am hungry
+ section.reviews
+    h2 CUSTOMER REVIEWS
+    .container-parent3
+        .container3
+            h3 SHAURYA
+            ul.rating
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+            h1.title BEST FOOD DELIVERY COMPANY
+            p.container-text3
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, laborum dolorum delectus animi obcaecati atque suscipit tenetur tempore quidem sed! Aperiam soluta quas vel iure.
+        .container3
+            h3 NAMAN
+            ul.rating
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+            h1.title BEST FOOD DELIVERY COMPANY
+            p.container-text3
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, laborum dolorum delectus animi obcaecati atque suscipit tenetur tempore quidem sed! Aperiam soluta quas vel iure.
+        .container3
+            h3 RAHUL
+            ul.rating
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+                i.fas.fa-star
+            h1.title BEST FOOD DELIVERY COMPANY
+            p.container-text3
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, laborum dolorum delectus animi obcaecati atque suscipit tenetur tempore quidem sed! Aperiam soluta quas vel iure.
+ section.steps
+
+    h2.stp STEPS TO FOLLOW
+    .flex-container
+        .image-container
+            img.app-img(src='./img/Capture.png', alt='')
+        .steps-container
+            .steps-flex-container.clearfix
+                div 1
+                p.steps-para
+                    | Choose the subscription plan that best fits your needs and sign up today.
+            .steps-flex-container.clearfix
+                div 2
+                p.steps-para
+                    | Order your delicious meal using our mobile app or website. Or you can even call us!
+            .steps-flex-container.clearfix
+                div 3
+                p.steps-para Enjoy your meal after less than 20 minutes. See you the next time!
+ section.signup
+  h2.cntus CONTACT US
+  .signup-container
+    .video-container
+      video.bg-video(autoplay='', muted='', loop='')
+        source(src='Avocado.mp4', type='video/mp4')
+        |                             Autoplay is not supported
+    .signup-form
+      form(action='')
+        .entry-container
+          label(for='name') Name
+          input#name(type='text', placeholder='Your Name')
+        .entry-container
+          label(for='Email') Email
+          input#Email(type='email', placeholder='Your Email')
+        .entry-container
+          label(for='Options') How did you find us
+          select#Options
+            option(value='friends') friends
+            option(value='search') search
+            option(value='advertisment') advertisment
+            option(value='other') other
+        .entry-container
+          label(for='feedback') Drop us a line
+          textarea(name='feedback', id='', cols='30', rows='10')
+        .entry-container
+          input#checkbox(type='checkbox', placeholder='Your Name')
+          p I have read and agree with all the Privacy Policy and Terms Conditions
+        button.btn.btn-full(type='submit') Submit

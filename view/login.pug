@@ -1,0 +1,20 @@
+extend base
+append head
+ link(rel='stylesheet', href='style.css')
+ 
+block header
+ include hamburger
+block content
+ .main
+    p.sign(align='center') Sign in
+    form.login
+        .entry
+         input(type='email', align='center', placeholder='Email Id').email
+        .entry
+         input(type='password', align='center', placeholder='Password').password
+        .entry
+          button(type="submit",align='center').submit1 Sign in
+        .entry
+          button.forgot(align='center') Forgot Password?
+           
+ 

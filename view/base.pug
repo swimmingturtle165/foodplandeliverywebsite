@@ -1,0 +1,20 @@
+doctype html
+html
+ block head
+    meta(charset="UTF-8")
+    meta(name="viewport" ,content="width=device-width, initial-scale=1.0")
+    title #{title}
+    link(href="https://fonts.googleapis.com/css?family=Roboto&display=swap" ,rel="stylesheet")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" ,crossorigin="")
+    link(rel="stylesheet", href="css/showcase.css")
+    link(rel='stylesheet', href='path/to/font-awesome/css/font-awesome.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu', rel='stylesheet')
+ body
+  block header
+   include nav
+  block content
+   p Included will come here
+  include footer
+  script(src="https://unpkg.com/axios/dist/axios.min.js",crossorigin="true")
+  script(src="js/frontend.js")
+  script(src="js/signup.js")

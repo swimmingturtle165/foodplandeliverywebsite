@@ -1,0 +1,30 @@
+/* large tablets */
+@media only screen and (max-width: 950px) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
+  /* mobile screens  */
+  @media only screen and (max-width: 600px) {
+   header{
+     
+   }
+    .container {
+      width: 100%;
+    }
+    .image-container {
+      width: 100%;
+      text-align: center;
+    }
+    .steps-container {
+      width: 100%;
+      margin-top: 2rem;
+    }
+    .steps-flex-container {
+      height: 43%;
+    }
+    h1{
+      font-size:150%
+    }
+  }
+  
