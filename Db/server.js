@@ -3,7 +3,7 @@ const app=express();
 const mongoose=require("mongoose");
 mongoose
    .connect(
-       'mongodb+srv://admin:sachit15@cluster0-k9nyt.mongodb.net/test?retryWrites=true&w=majority', 
+       'mongodb+srv://admin:<password>@cluster0-k9nyt.mongodb.net/test?retryWrites=true&w=majority', 
    {useNewUrlParser: true,
     useCreateIndex:true,
     useUnifiedTopology:true}
